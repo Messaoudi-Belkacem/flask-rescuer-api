@@ -18,4 +18,4 @@ def get_first_aid_instructions_handler():
     return jsonify(instructions)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='192.168.222.43')
+    app.run(debug=True, host='192.168.27.43')
